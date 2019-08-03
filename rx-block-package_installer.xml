@@ -25,4 +25,15 @@
 	  <type name="text/*" />
     </intent-filter>
   </prescription>
+	
+<!-- EhViewer(针对未知文件) -->
+  <prescription type="activity" package="com.hippo.ehviewer" class="com.hippo.ehviewer.ui.GalleryActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="application/octet-stream" />
+    </intent-filter>
+  </prescription>
  </prescriptions>
