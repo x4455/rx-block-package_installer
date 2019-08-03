@@ -33,7 +33,7 @@
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
 	  <scheme name="content"/>
-	  <type name="application/octet-stream" />
+	  <type name="application/*" />
     </intent-filter>
   </prescription>
  </prescriptions>
