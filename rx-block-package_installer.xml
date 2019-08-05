@@ -1,6 +1,6 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
   <!-- 安装程序 -->
-  <prescription type="activity" package="com.google.android.packageinstaller" class="com.android.packageinstaller.InstallStart" sender="other">
+  <prescription type="activity" package="com.android.packageinstaller" class="com.android.packageinstaller.InstallStart" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
 	<action name="android.intent.action.INSTALL_PACKAGE"/>
