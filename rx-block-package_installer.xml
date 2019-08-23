@@ -51,16 +51,4 @@
       <scheme name="mailto"/>
     </intent-filter>
   </prescription>
-
-<!-- 酷安shortcut -->
-  <prescription type="activity" package="com.coolapk.market" class="com.coolapk.market.view.main.MainActivity" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW"/>
-      <cat name="android.intent.category.DEFAULT"/>
-      <cat name="android.intent.category.BROWSABLE"/>
-	  <scheme name="coolmarket"/>
-	  <host name="coom.coolapk.market"/>
-	  <path name="/search" />
-    </intent-filter>
-  </prescription>
  </prescriptions>
