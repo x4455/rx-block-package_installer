@@ -40,4 +40,14 @@
 	  <type name="text/*" />
     </intent-filter>
   </prescription>
+
+<!-- QQ邮箱 -->
+  <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchComposeNote" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <cat name="android.intent.action.SENDTO"/>
+      <scheme name="mailto"/>
+    </intent-filter>
+  </prescription>
  </prescriptions>
