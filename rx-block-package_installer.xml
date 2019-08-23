@@ -59,6 +59,7 @@
       <cat name="android.intent.category.DEFAULT"/>
       <cat name="android.intent.category.BROWSABLE"/>
 	  <scheme name="coolmarket"/>
+	  <host name="coom.coolapk.market"/>
 	  <path name="/search" />
     </intent-filter>
   </prescription>
