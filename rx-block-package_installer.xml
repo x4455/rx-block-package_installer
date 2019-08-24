@@ -1,4 +1,15 @@
 <prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3"> 
+<!-- 安装程序 -->
+  <prescription type="activity" package="com.android.packageinstaller" class="com.android.packageinstaller.InstallStart" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+	<action name="android.intent.action.INSTALL_PACKAGE"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="application/vnd.android.package-archive" />
+    </intent-filter>
+  </prescription>
 <!-- fv -->
   <prescription type="activity" package="com.fooview.android.fooview" class="com.fooview.android.fooview.FooPlayerProxy" sender="other">
     <intent-filter>
