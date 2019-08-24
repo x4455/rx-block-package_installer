@@ -7,7 +7,7 @@
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
 	  <scheme name="content"/>
-	  <type name="application/*" />
+	  <type name="application/vnd.android.package-archive" />
     </intent-filter>
   </prescription>
 
