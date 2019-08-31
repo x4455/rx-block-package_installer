@@ -26,6 +26,7 @@
   </prescription>
   <prescription type="activity" package="com.fooview.android.fooview" class="com.fooview.android.fooview.FVFilePickerActivity" sender="other">
     <intent-filter>
+      <action name="android.intent.action.VIEW"/>
       <action name="android.intent.action.RINGTONE_PICKER "/>
       <action name="android.intent.action.GET_CONTENT "/>
       <cat name="android.intent.category.DEFAULT"/>
