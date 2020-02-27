@@ -1,18 +1,21 @@
-<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3"> 
-<!-- fv -->
+<?xml version="1.0"?>
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
+
+    <!-- FV悬浮球 
   <prescription type="activity" package="com.fooview.android.fooview" class="com.fooview.android.fooview.FooPlayerProxy" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+    <scheme name="content"/>
+    <type name="image/*" />
+    <type name="video/*" />
+    <type name="audio/*" />
+    <type name="application/*" />
+    <type name="text/*" />
     </intent-filter>
   </prescription>
+
   <prescription type="activity" package="com.fooview.android.fooview" class="com.fooview.android.fooview.FVFilePickerActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -22,26 +25,26 @@
       <cat name="android.intent.category.OPENABLE"/>
       <scheme name="file"/>
       <scheme name="content"/>
-	  <type name="*/*" />
+    <type name="*/*" />
     </intent-filter>
   </prescription>
-
-<!-- 海阔 -->
+  -->
+    <!-- 海阔 -->
   <prescription type="activity" package="com.dyh.hiker" class="com.dyh.movienow.ui.home.ResolveIntentDialogActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.DEFAULT"/>
       <scheme name="file"/>
-	  <scheme name="content"/>
-	  <type name="image/*" />
-	  <type name="video/*" />
-	  <type name="audio/*" />
-	  <type name="application/*" />
-	  <type name="text/*" />
+    <scheme name="content"/>
+    <type name="image/*" />
+    <type name="video/*" />
+    <type name="audio/*" />
+    <type name="application/*" />
+    <type name="text/*" />
     </intent-filter>
   </prescription>
 
-<!-- QQ邮箱 -->
+    <!-- QQ邮箱 -->
   <prescription type="activity" package="com.tencent.androidqqmail" class="com.tencent.qqmail.launcher.third.LaunchComposeNote" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -51,4 +54,4 @@
       <scheme name="mailto"/>
     </intent-filter>
   </prescription>
- </prescriptions>
+</prescriptions>
